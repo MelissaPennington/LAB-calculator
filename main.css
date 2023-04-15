@@ -3,6 +3,8 @@
   background: lightGrey;
   width: max-content;
   margin: auto;
+  font-family: monospace;
+  
 }
 
 .display{
@@ -11,21 +13,74 @@
   height: 50px;
   display: flex;
   justify-content: flex-end;
-}
-.buttons{
-  max-width: 400px;
-  display:flex;
-  flex-wrap: wrap;
+  font-size: 26px;
+  color: aliceblue;
 }
 
-button{
-  flex: 1 25%;
-  padding: 15px;
+.buttons-row-2 {
+  flex: stretch;
+  width: 200px;
   font-size: 26px;
-} 
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-number-C {
+  flex-grow: 1;
+  background-color: lightGrey;
+  color: black;
+}
+
+.buttons-row-3 {
+  flex: stretch;
+  flex-grow: 1;
+  width: 200px;
+  font-size: 26px;
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-row-4 {
+  flex: stretch;
+  width: 200px;
+  font-size: 26px;
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-row-5 {
+  flex: stretch;
+  width: 200px;
+  font-size: 26px;
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  flex-grow: 3;
+  justify-content: space-between;
+}
+.buttons-row-6 {
+  flex: stretch;
+  width: 200px;
+  font-size: 26px;
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-number-0 {
+  flex-grow: 1;
+}
+
+.display{
+  background-color: black;
+}
 
 .btn-number {
-  background-color:grey;
+  background-color:#d8d9db;
 }
 
 .btn-operator {
@@ -33,9 +88,5 @@ button{
 }
 
 .btn-equals {
-  background-color:green;
-}
-
-.btn-clear {
-   background-color:crimson;
+  background-color:#d8d9db;
 }
