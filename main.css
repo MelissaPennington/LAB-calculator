@@ -1,41 +1,82 @@
 
 .container{
-  background: lightGrey;
-  width: max-content;
-  margin: auto;
+  background-color: lightgray;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-family: monospace;
+}
+
+.wrapper {
+	width: 400px;
+	margin: 10px auto;
+  flex: 2;
 }
 
 .display{
-  width: 100%;
-  background-color: darkGrey;
+  width: 48.1%;
+  background-color: darkgray;
+  align-items: center;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  color: antiquewhite;
+  text-align: right;
+  font-family: monospace;
+}
+.button{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  font-size: 26;
   height: 50px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
-.buttons{
-  max-width: 400px;
-  display:flex;
-  flex-wrap: wrap;
-}
-
-button{
-  flex: 1 25%;
-  padding: 15px;
-  font-size: 26px;
-} 
-
-.btn-number {
-  background-color:grey;
+.row-2{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn-operator {
-  background-color:orange;
+.row-3{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn-equals {
-  background-color:green;
+.row-4{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn-clear {
-   background-color:crimson;
+.row-5{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.row-6{
+  width: 50%;
+  background-color: lightgray;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
