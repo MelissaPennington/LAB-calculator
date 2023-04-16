@@ -3,49 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><LAB-Calculator></title>
+  <meta name="viewport" content="width=400px, initial-scale=1.0">
+  <title><LAB-Calculator</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container">
-      <div class="buttons">
-        <div class="display">0</div>
-        <div class="buttons-row-2">
-          <button class="btn-number-C">C</button>
-          <button class="btn-number">&#8592;</button>
-          <button class="btn-operator">&#247;</button> 
-        </div>
-          <div class="buttons-row-3">
-            <button class="btn-number">9</button>
-            <button class="btn-number">8</button>
-            <button class="btn-number">7</button>
-            <button class="btn-operator">&#215;</button>
-          </div>
-           <div class="buttons-row-4">
-           <button class="btn-number">4</button>
-           <button class="btn-number">5</button>
-           <button class="btn-number">6</button>
-           <button class="btn-operator">&#8722;</button>
-          </div>
-          <div class="buttons-row-5">
-            <button class="btn-number" style="background:lightgray;display:inline-block;padding:1px 5px;">7</button>
-            <button class="btn-number">8</button>
-            <button class="btn-number">9</button>
-            <button class="btn-operator">&#43;</button>
-          </div>
-          <div class="buttons-row-6">
-            <button class="btn-number-0">0</button>
-            <button class="btn-equals">&#61;</button>
-          </div>
-         <!-- </div><span style="background:black;color:white;display:inline-block;padding:1px 5px;"></span></div>
-       <div><span style="background:white;display:inline-block;padding:1px 5px;"></span></div>  
-    <div><span style="background:#d8d9db;display:inline-block;padding:1px 5px;"></span></div>  
-  <div><span style="background:#bbbcbe;display:inline-block;padding:1px 5px;"></span></div>  
-  <div><span style="background:#df974c;display:inline-block;padding:1px 5px;"></span></div>  
-<div><span style="background:#dd8d37;display:inline-block;padding:1px 5px;"></span></div> -->
-<!-- </div>
-        <span style="background:#ebebeb;display:inline-block;padding:1px 5px;"></span>
-  </div> -->
-</body>
-</html>
+  <div class="wrapper">
+    <div class="container"></div>
+    <div class="buttons"></div>
+     <div class="display" style="background:black;color:white;display:inline-block;padding: 1px 5px;">0</div>
+     <div class="row-2">
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 1;">C</button>
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px;font-size: 35px; flex-grow: .1;">&#8592;</button>
+      <button class="btn-operator" style="background:#df974c;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: .4;">&#247;</button>
+     </div>
+     <div class="row-3" style="justify-content: center; flex-grow: 1;">
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">7</button>
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">8</button>    
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">9</button>
+      <button class="btn-operator" style="background:#df974c;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">&#215;</button>
+     </div>
+    <div class="row-4" style="justify-content: center; flex-grow: 1;">
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">4</button>
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">5</button>    
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">6</button>
+      <button class="btn-operator" style="background:#df974c;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">&#8722;</button>
+    </div>
+    <div class="row-5" style="justify-content: center; flex-grow: 1;">
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">1</button>
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">2</button>    
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">3</button>
+      <button class="btn-operator" style="background:#df974c;display:inline-block;padding:1px 5px; font-size: 35px; flex-grow: 2;">&#43;</button>
+    </div>
+    <div class="row-6" style="justify-content: right; flex-grow: 1;">
+      <button class="btn-number" style="background:#d8d9db;display:inline-block;padding:1px 5px; font-size: 35px; justify-content: space-around; flex-grow: 1;">0</button>
+      <button class="btn-operator" style="background:#df974c;display:inline-block;padding:1px 5px; font-size: 35px; justify-content: right; flex-grow: .2;">&#61;</button>
+      <span style="background:#bbbcbe;display:inline-block;padding:1px 5px;"></span>
+    </div>
+    </body>
+  </div> 
+  </html>
